@@ -1,0 +1,95 @@
+<html>
+	<head>
+		
+	<title>Candidate Registration</title>
+	<link rel="stylesheet" href="style_form.css">
+	<style>
+		legend {
+		background-color: #ead1d1;
+		color: rgba(22, 6, 21, 0.75);
+		padding: 5px 10px;
+		}
+	</style>
+	</head>
+	
+	<body>
+		<form>
+			<h1>Candidate Registration Form</h1>
+		<section class="GREEN">
+			<fieldset>
+				<legend>Personal Details</legend>
+				<br>
+
+				<own><strong><label for="Fistname">First Name <sup id="red1">*</sup></strong></label></own> &nbsp &nbsp &nbsp &nbsp<input type="text" class="textcolor" id="Fistname" placeholder="Peter" autocapitalize="characters" autofocus required><br><br>
+				
+				<own><strong><label for="lstname">Last Name  <sup id="red1">*</sup></strong></label></own> &nbsp &nbsp &nbsp &nbsp<input type="text"  class="textcolor" id="lstname"placeholder="Shaikh" required><br><br>
+				<own><strong><label for="Mostname">Mother's Name<sup id="red1">*</sup></strong></label></own><input type="text"  class="textcolor" id="Mostname" required><br><br>
+				<own><strong><label for="FatName">Father's Name &nbsp<sup id="red1">*</sup></strong><input type="text"  class="textcolor" id="FatName" required><br><br>
+				<own><strong>DOB &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <sup id="red1">*</sup></strong></own><input type="date"  class="textcolor" min="1990-01-01" max="2005-01-01" required><br><br>
+				<own><strong><label for="emaila">E-mail &nbsp &nbsp &nbsp<sup id="red1">*</sup></strong><input type="email" id="emaila" name="email" required class="textcolor" >
+		</section>		
+
+			</fieldset>
+			<br><br>
+			
+			<section class="GREEN">
+				<fieldset>
+					<legend>Education Details</legend>
+					<br>
+
+					<div>
+						<label>Select Your Highest Qualification</label>
+					</div>
+					
+				<div>
+					
+					<select id="degree" class="GREEN" class="textcolor" required>
+						<option class="textcolor" >Masters</option>
+						<option class="textcolor" >Gradaute</option>
+						<option class="textcolor" >Under-Graduate</option>
+						<option class="textcolor" >Diploma</option>
+						<option class="textcolor" >Higher Secondary (12<sup>th</sup>)</option>
+						<option class="textcolor" >Secondary School (10<sup>th</sup>)</option>	  
+					</select>
+
+				</div>
+				<br>
+			
+				<div>
+					<label>Attended date</label>
+					<br><br>
+				</div>
+				<div>
+				Start Date:	<input  type="date" min="2015-01-01" max="2022-05-31" class="textcolor" ><br><br>
+				End &nbsp Date: <input type="date"  min="2014" max="2022"  class="textcolor" ><br><br>
+				Upload Scanned copy of the Education Certificate/TOR/Marksheet &nbsp  &nbsp <sup id="red1">*</sup> 
+				<input type="file" required>
+				<br><br>
+				Upload Adhaar Card &nbsp &nbsp<sup id="red1">*</sup> <input type="file" required>
+				<br><br>
+				Upload Pan Card &nbsp &nbsp<sup id="red1">*</sup> <input type="file" required>
+				</div>
+	
+				</fieldset>
+			</section>
+				<br><br>
+
+		<section class="GREEN">
+					<fieldset>
+						<legend>Identification</legend>
+						<br>
+						
+						Upload Your Photo &nbsp &nbsp:<sup id="red1">*</sup><input type="file" required><br><br>
+						Upload Your Signature:<sup id="red1">*</sup><input type="file" required><br><br>
+		
+						
+		</section>	
+		<p class="instructions">Review and submit the form</p>
+		<br>
+		<button type="submit" formaction="Thank You.html" class="GREEN"><strong>SUBMIT</strong></button>
+
+
+		</form>
+		
+	</body>
+</html>
